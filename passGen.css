@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #808080;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 18px;
+}
+.box{
+    background-color: #fff;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 18px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.passCon{
+    display: flex;
+    column-gap: 15px;
+}
+.passCon #pass{
+    width: 200px;
+    height: 20px;
+    padding: 7px;
+    border-radius: 25px;
+}
+.passCon .cpy{
+    padding: 7px 10px;
+    border-radius: 16px;
+}
+.rangepass{
+    width: 285px;
+    display: flex;
+    column-gap: 10px;
+}
+.creaters{
+    width: 300px;
+    list-style: none;
+    display: flex;
+}
+.creaters div{
+    width: 250px;
+    font-weight: 700;
+}
+.creaters input{
+    width: 50px;
+    cursor: pointer;
+} 
+.generate{
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 16px;
+}
